@@ -1,7 +1,7 @@
 # syntax=docker.io/docker/dockerfile:1
 FROM --platform=linux/riscv64 cartesi/python:3.10-slim-jammy
 
-LABEL io.cartesi.rollups.sdk_version=0.11.0
+LABEL io.cartesi.rollups.sdk_version=pr-82
 LABEL io.cartesi.rollups.ram_size=128Mi
 
 ARG DEBIAN_FRONTEND=noninteractive
