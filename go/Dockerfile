@@ -32,6 +32,7 @@ RUN make
 # runtime stage: produces final image that will be executed
 FROM --platform=linux/riscv64 ubuntu:22.04
 
+LABEL io.cartesi.rollups.sdk_name=ghcr.io/cartesi/sdk
 LABEL io.cartesi.rollups.sdk_version=pr-82
 LABEL io.cartesi.rollups.ram_size=128Mi
 
